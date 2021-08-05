@@ -1,0 +1,35 @@
+#deepOcean,
+#black,
+#teal,
+#oceanFloor {
+  width: 100%;
+  height: 100vh;
+  min-height: 300px;
+  min-width: 300px;
+  color: white;
+}
+
+#deepOcean {
+  background-image: linear-gradient(#00232c, #000f13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#black {
+  background-image: linear-gradient(#000f13, #000000);
+}
+
+#teal {
+  background-image: linear-gradient(#000000, #638177);
+}
+
+#oceanFloor {
+  background-image: linear-gradient(#638177, #a3d3c3);
+}
+
+#deepOcean h1 {
+  font-size: 7em;
+  text-transform: uppercase;
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import Sky from './components/Sky/Sky';
+import CloudContainer from './components/CloudContainer/CloudContainer';
+import { Component } from 'react';
+import Land from './components/Land/Land';
+import Ocean from './components/Ocean/Ocean';
+import DeepOcean from './components/DeepOcean/DeepOcean';
+import BikiniBottom from './components/BikiniBottom/BikiniBottom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <ParallaxProvider>
+        <div className="App">
+          <CloudContainer />
+          <Sky />
+          <Land />
+          <Ocean />
+          <DeepOcean />
+          <BikiniBottom />
+        </div>
+      </ParallaxProvider>
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,74 @@
+#land {
+  width: 100%;
+  height: 100vh;
+  min-height: 300px;
+  min-width: 300px;
+  background-image: linear-gradient(#ffffff, #fdab20);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.wave-parallax,
+.wave-parallax .parallax-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.wave {
+  background: url(./wave.svg) repeat-x; 
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: -200%;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes fly-left-one {
+	0% {
+		transform: scale(0) translateX(110vw);
+	}
+	10% {
+		transform: translateY(2vh) translateX(90vw) scale(0.4);
+	}
+	20% {
+		transform: translateY(0vh) translateX(70vw) scale(0.5);
+	}
+	30% {
+		transform: translateY(4vh) translateX(50vw) scale(0.6);
+	}
+	40% {
+		transform: translateY(2vh) translateX(30vw) scale(0.6);
+	}
+	50% {
+		transform: translateY(0vh) translateX(10vw) scale(0.6);
+	}
+	60% {
+		transform: translateY(0vh) translateX(-20vw) scale(0.6);
+	}
+	100% {
+		transform: translateY(0vh) translateX(-20vw) scale(0.6);
+	}
+}
+
+.bird-container-rev {
+  position: absolute;
+  left: 10%;
+	transform: scale(0) translateX(110vw);
+	will-change: transform;
+  animation-name: fly-left-one;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.bird-container-rev .bird {
+	transform: scaleX(-1);	
+}

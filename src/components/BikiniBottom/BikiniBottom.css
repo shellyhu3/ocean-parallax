@@ -1,0 +1,113 @@
+#flowerClouds {
+  width: 100%;
+  height: 100vh;
+  min-height: 300px;
+  min-width: 300px;
+  background-color: #a3d3c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#flower1 {
+  width: 30vw;
+  position: relative;
+  top: 40vh;
+  opacity: 0.9;
+}
+
+#flower2 {
+  width: 9vw;
+  position: relative;
+  top: 10vh;
+}
+
+#flower3 {
+  width: 20vw;
+  opacity: 0.6;
+}
+
+#flower4 {
+  width: 11vw;
+  position: relative;
+  top: 30vh;
+  opacity: 0.7;
+}
+
+#bikiniBottom {
+  width: 100%;
+  height: 100vh;
+  min-height: 300px;
+  min-width: 300px;
+  background-image: linear-gradient(#a3d3c3 55%, #ecd7ae 55%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#houses {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.house {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  animation: bounce 4s infinite;
+}
+
+.house img {
+  object-position: bottom;
+  max-width: 10em;
+}
+
+#pat.house {
+  animation-delay: 0.3s;
+}
+
+#sponge.house {
+  animation-delay: 0.7s;
+}
+
+.path {
+  transform: translateY(-26px);
+  display: flex;
+  flex-direction: column;
+}
+
+#patPath,
+#spongePath {
+  width: 3em;
+  height: 4.5em;
+  background-color: gray;
+  transform: perspective(100px) rotateX(45deg);
+}
+
+#squidPath {
+  transform: perspective(100px) rotateX(45deg);
+}
+
+.path-block {
+  width: 3em;
+  height: 1em;
+  background-color: rgb(146, 95, 19);
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 500px) {
+  .house img {
+    max-width: 7em;
+  }
+
+  #bikiniBottom {
+    background-image: linear-gradient(#a3d3c3 52%, #ecd7ae 52%);
+  }
+
+  .path {
+    transform: translateY(-22px);
+  }
+}
