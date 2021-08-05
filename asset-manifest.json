@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ocean-parallax/static/css/main.c7787449.chunk.css",
+    "main.js": "/ocean-parallax/static/js/main.7759504f.chunk.js",
+    "main.js.map": "/ocean-parallax/static/js/main.7759504f.chunk.js.map",
+    "runtime-main.js": "/ocean-parallax/static/js/runtime-main.c628af9b.js",
+    "runtime-main.js.map": "/ocean-parallax/static/js/runtime-main.c628af9b.js.map",
+    "static/js/2.0aecea04.chunk.js": "/ocean-parallax/static/js/2.0aecea04.chunk.js",
+    "static/js/2.0aecea04.chunk.js.map": "/ocean-parallax/static/js/2.0aecea04.chunk.js.map",
+    "static/js/3.1cc7ecac.chunk.js": "/ocean-parallax/static/js/3.1cc7ecac.chunk.js",
+    "static/js/3.1cc7ecac.chunk.js.map": "/ocean-parallax/static/js/3.1cc7ecac.chunk.js.map",
+    "index.html": "/ocean-parallax/index.html",
+    "static/css/main.c7787449.chunk.css.map": "/ocean-parallax/static/css/main.c7787449.chunk.css.map",
+    "static/js/2.0aecea04.chunk.js.LICENSE.txt": "/ocean-parallax/static/js/2.0aecea04.chunk.js.LICENSE.txt",
+    "static/media/Sky.css": "/ocean-parallax/static/media/bird.4171e439.svg",
+    "static/media/fish.f6846bf9.svg": "/ocean-parallax/static/media/fish.f6846bf9.svg",
+    "static/media/flower1.08fa24ad.png": "/ocean-parallax/static/media/flower1.08fa24ad.png",
+    "static/media/flower2.f4671db3.png": "/ocean-parallax/static/media/flower2.f4671db3.png",
+    "static/media/flower3.635eb364.png": "/ocean-parallax/static/media/flower3.635eb364.png",
+    "static/media/flower4.d90337b2.png": "/ocean-parallax/static/media/flower4.d90337b2.png",
+    "static/media/sponge.08d8fed4.png": "/ocean-parallax/static/media/sponge.08d8fed4.png",
+    "static/media/squid.0dbec3fe.png": "/ocean-parallax/static/media/squid.0dbec3fe.png",
+    "static/media/Land.css": "/ocean-parallax/static/media/wave.65f95970.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c628af9b.js",
+    "static/js/2.0aecea04.chunk.js",
+    "static/css/main.c7787449.chunk.css",
+    "static/js/main.7759504f.chunk.js"
+  ]
+}
